@@ -2,8 +2,7 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.15.
 
-![alt tag](http://fs5.directupload.net/images/161007/9lvrpr4l.gif)
-
+[![Final Result](http://fs5.directupload.net/images/161007/9lvrpr4l.gif)](https://cankattwinkel.github.io/anuglar-2-animate.css-example/)
 
 
 ## Steps:
