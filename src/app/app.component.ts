@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+  public wobbleState: string;
+
+  triggerAnimation() {
+
+  }
+
+  reset() {
+  }
+
 }
