@@ -1,4 +1,4 @@
-import {Component, trigger, keyframes, animate, transition, style} from '@angular/core';
+import {Component, trigger, keyframes, animate, transition, style, NgZone} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -22,11 +22,17 @@ export class AppComponent {
   title = 'app works!';
   public wobbleState: string;
 
-  triggerAnimation() {
+  constructor(public zone: NgZone) {
+  }
 
+  triggerAnimation() {
+    this.wobbleState = "active";
   }
 
   reset() {
+    this.zone.run(() => {
+      this.wobbleState = "inactive";
+    });
   }
 
 }

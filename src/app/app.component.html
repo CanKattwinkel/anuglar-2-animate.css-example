@@ -2,6 +2,6 @@
   {{title}}
 </h1>
 
-<app-animation-target></app-animation-target>
+<app-animation-target [@wobble]="wobbleState" (@wobble.done)="reset()"></app-animation-target>
 
 <button (click)="triggerAnimation()">Click to Trigger the Animation</button>
