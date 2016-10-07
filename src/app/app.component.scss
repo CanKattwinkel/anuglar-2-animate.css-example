@@ -1,0 +1,20 @@
+:host {
+  padding: 50px;
+  width: 500px;
+  display: block;
+  margin:auto;
+}
+
+button {
+  border:none;
+  padding: 25px;
+  background: #181d69;
+  color: #fff;
+  font-size: 26px;
+  width: 500px;
+  font-weight: lighter;
+
+  &:hover {
+    background: #1a2580;
+  }
+}
